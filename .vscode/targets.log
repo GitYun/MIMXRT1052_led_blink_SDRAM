@@ -1,0 +1,313 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make.exe: *** No rule to make target 'all'.  Stop.
+
+# GNU Make 4.2.1
+# Built for x86_64-w64-mingw32
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Fri Jul 08 16:28:46 2022
+
+# Variables
+
+# 'override' directive
+GNUMAKEFLAGS := 
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# automatic
+?F = $(notdir $?)
+# default
+.SHELLFLAGS := -c
+# makefile
+MAKEFLAGS = pqrR
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environment
+HOMEDRIVE = C:
+# automatic
+@F = $(notdir $@)
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# makefile
+CURDIR := e:/NXP/workspace_v11/MIMXRT1052_led_blink
+# environment
+EIDE_OPENOCD = 
+# default
+SHELL := D:/OpenFree/PortableGit/bin/sh.exe
+# environment
+WINDIR = C:\Windows
+# environment
+VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"bbca1a7059cee8a1b93da8947fee1c4f.zh-cn","_translationsConfigFile":"C:\\Users\\renqingyun\\AppData\\Roaming\\Code\\clp\\bbca1a7059cee8a1b93da8947fee1c4f.zh-cn\\tcf.json","_cacheRoot":"C:\\Users\\renqingyun\\AppData\\Roaming\\Code\\clp\\bbca1a7059cee8a1b93da8947fee1c4f.zh-cn","_resolvedLanguagePackCoreLocation":"C:\\Users\\renqingyun\\AppData\\Roaming\\Code\\clp\\bbca1a7059cee8a1b93da8947fee1c4f.zh-cn\\30d9c6cd9483b2cc586687151bcbcd635f373630","_corruptedFile":"C:\\Users\\renqingyun\\AppData\\Roaming\\Code\\clp\\bbca1a7059cee8a1b93da8947fee1c4f.zh-cn\\corrupted.info","_languagePackSupport":true}
+# environment
+VBOX_MSI_INSTALL_PATH = D:\OpenFree\Oracle\VirtualBox\
+# environment
+ONEDRIVE = C:\Users\renqingyun\OneDrive
+# environment
+QSYS_ROOTDIR = D:\EDA\intelFPGA_lite\20.1\quartus\sopc_builder\bin
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# makefile
+MAKEFILE_LIST := 
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# environment
+TMP = C:\Users\RENQIN~1\AppData\Local\Temp
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PROGRAMDATA = C:\ProgramData
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-b74586be-5e33-4212-8f54-d405450eb1ac-sock
+# environment
+VSCODE_CWD = D:\Editor\VSCode-win32-x64
+# environment
+EIDE_ARM_GCC = D:\OpenCLI\Compilers\gcc-arm-none-eabi-10.3-2021.10\bin
+# default
+MAKE_HOST := x86_64-w64-mingw32
+# environment
+PATH = C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\IDE\NI\VISA2018\WinNT\Bin\;C:\Program Files\IVI Foundation\VISA\Win64\Bin\;D:\IDE\NI\VISA2018\WinNT\Bin;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin\;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin;C:\Program Files\dotnet\;D:\OpenFree\TortoiseGit\bin;D:\OpenFree\python-3.9.6-embed-amd64;D:\OpenFree\python-3.9.6-embed-amd64\Scripts;C:\Users\renqingyun\AppData\Local\Microsoft\WindowsApps;D:\IDE\NI\LabVIEW2018\Shared\LabVIEW CLI;D:\OpenFree\xmake;D:\OpenFree\Rust\bin;D:\OpenFree\PortableGit;D:\OpenFree\PortableGit\bin;D:\OpenFree\WSL_Linux\WSL2\ArchLinux;D:\OpenFree\cmake-3.19.3-win64-x64\bin;D:\IDE\ti\ccsv550\ccsv5\utils\bin;D:\IDE\ti\ccs1100\ccs\utils\bin;D:\IDE\ti\ccs1100\ccs\tools\compiler\ti-cgt-c6000_8.3.11\bin;D:\IDE\ti\ccs1100\ccs\tools\compiler\ti-cgt-c2000_21.6.0.LTS\bin;E:\TI\workspace_v11\C6745_DrvLib;D:\OpenCLI\Compilers\sdcc-4.2.2-x64\bin;D:\OpenCLI\Compilers\gcc-arm-none-eabi-10.3-2021.10\bin;D:\OpenCLI\Compilers\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin;D:\OpenFree\FLTK-1.3.6\bin;D:\OpenFree\doxygen\bin;D:\OpenFree\Cairo-1.16.0\bin\dep;D:\Editor\emacs-27.2-x86_64\bin;D:\Editor\Neovim\bin;D:\IDE\VC6.0green\VC98\Bin;D:\IDE\VC6.0green\VC98\Lib;D:\OpenFree\lcov-for-windows\bin;D:\OpenFree\wkhtmltox\bin;D:\OpenFree\nushell;D:\OpenFree\node\node-v16;D:\OpenFree\node\npm_global;D:\Other\LPC21ISP;D:\Other\dfu-util-0.11-binaries\win64;C:\Users\renqingyun\.dotnet\tools;C:\Windows\Microsoft.NET\Framework\v4.0.30319;D:\OpenCLI\gs9550w64\bin;D:\OpenCLI\ch55x_isp\WchispTool3.2;D:\OpenCLI\fd-v8.3.2-x86_64-pc-windows-gnu;D:\OpenFree\USBPcap;D:\OpenCLI\usbip;C:\Users\renqingyun\.eide\bin\builder\bin;C:\Users\renqingyun\.eide\bin\builder\utils;C:\Users\renqingyun\.eide\bin\scripts;D:\OpenCLI\Compilers\gcc-arm-none-eabi-10.3-2021.10\bin;C:\Users\renqingyun\.eide\tools;C:\Users\renqingyun\.eide\bin\builder\msys\bin
+# environment
+LM_LICENSE_FILE = D:\EDA\lscc\diamond\3.12\license\license.dat
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# environment
+ZES_ENABLE_SYSMAN = 1
+# environment
+PROCESSOR_ARCHITECTURE = AMD64
+# environment
+VXIPNPPATH64 = C:\Program Files\IVI Foundation\VISA\
+# environment
+USERPROFILE = C:\Users\renqingyun
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+SOPC_KIT_NIOS2 = D:\EDA\intelFPGA_lite\20.1\nios2eds
+# environment
+VSCODE_LOG_STACK = false
+# environment
+NUMBER_OF_PROCESSORS = 8
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+LIB = D:\IDE\VC6.0green\VC98\Lib
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync
+# automatic
+%F = $(notdir $%)
+# automatic
+*F = $(notdir $*)
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_14240_QBNXOXLOAJUFIVCN
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+COMPUTERNAME = RENQINGYUN
+# environment
+PROGRAMFILES = C:\Program Files
+# default
+.LOADED := 
+# environment
+USERDNSDOMAIN = CRPROBOT.COM
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+RUSTUP_HOME = D:\OpenFree\Rust\Rustup
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERNAME = renqingyun
+# environment
+PUBLIC = C:\Users\Public
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\renqingyun\AppData\Roaming\Code\CachedData\30d9c6cd9483b2cc586687151bcbcd635f373630
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+COMMONPROGRAMFILES = C:\Program Files\Common Files
+# environment
+LOGONSERVER = \\ADSERVER
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+USERDOMAIN = CRPROBOT
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# default
+MAKE_VERSION := 4.2.1
+# makefile
+.DEFAULT_GOAL := 
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# environment
+EIDE_MSYS = C:\Users\renqingyun\.eide\bin\builder\msys\bin
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# environment
+LOCALAPPDATA = C:\Users\renqingyun\AppData\Local
+# environment
+PSMODULEPATH = %ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := make.exe
+# default
+.VARIABLES := 
+# environment
+EIDE_TOOLS_DIR = C:\Users\renqingyun\.eide\tools
+# environment
+NODE_PATH = D:\OpenFree\node\npm_global\node_modules
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 142 Stepping 12, GenuineIntel
+# environment
+OS = Windows_NT
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\b27d2a3c5596b506d4f57283911f3f5e-1.68.1-main-sock
+# environment
+HOMEPATH = \Users\renqingyun
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+PROMPT = $P$G
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+SYSTEMROOT = C:\Windows
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# automatic
++F = $(notdir $+)
+# environment
+APPDATA = C:\Users\renqingyun\AppData\Roaming
+# environment
+VXIPNPPATH = C:\Program Files (x86)\IVI Foundation\VISA\
+# environment
+TEMP = C:\Users\RENQIN~1\AppData\Local\Temp
+# environment
+COMSPEC = C:\Windows\system32\cmd.exe
+# default
+MAKEFILES := 
+# environment
+QUARTUS_ROOTDIR = D:\EDA\intelFPGA_lite\20.1\quartus
+# automatic
+<F = $(notdir $<)
+# environment
+EIDE_JLINK = 
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+SYSTEMDRIVE = C:
+# environment
+SESSIONNAME = Console
+# environment
+PROCESSOR_REVISION = 8e0c
+# default
+.RECIPEPREFIX := 
+# environment
+LANG = C
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# environment
+LATTICE_INI_PATH = C:\lsc_env
+# environment
+VSCODE_PID = 14240
+# environment
+DOTNET_CLI_TELEMETRY_OPTOUT = 1
+# environment
+USERDOMAIN_ROAMINGPROFILE = CRPROBOT
+# variable set hash-table stats:
+# Load=111/1024=11%, Rehash=0, Collisions=17/128=13%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (key e:/NXP/workspace_v11/MIMXRT1052_led_blink, mtime 1657268926): 18 files, no impossibilities.
+
+# 18 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+makefile.mak:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+GNUmakefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# files hash-table stats:
+# Load=7/1024=1%, Rehash=0, Collisions=0/16=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 25 / storage = 245 B / avg = 9 B
+# current buf: size = 8162 B / used = 245 B / count = 25 / avg = 9 B
+
+# strcache performance: lookups = 27 / hit rate = 7%
+# hash-table stats:
+# Load=25/8192=0%, Rehash=0, Collisions=1/27=4%
+# Finished Make data base on Fri Jul 08 16:28:46 2022
+
+ 

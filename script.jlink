@@ -1,0 +1,7 @@
+ExitOnError 1
+r
+h
+loadfile "E:\NXP\workspace_v11\MIMXRT1052_led_blink\Debug\MIMXRT1052_led_blink.hex"
+qc
+
+qc
